@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, session
 from flask_bcrypt import Bcrypt
 from flask_cors import CORS
 from database import get_connection
-from api import api
+from app import api
 from flask_login import LoginManager, UserMixin, login_user, login_required, current_user
 from flask import render_template, redirect, url_for, flash
 
