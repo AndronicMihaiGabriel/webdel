@@ -9,5 +9,4 @@ flask_cors
 mysql-connector-python
 mysql
 api
-database
 dotenv
