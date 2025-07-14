@@ -6,3 +6,4 @@ pytest
 flask_bcrypt
 flask_login
 flask_cors
+mysql-connector-python
