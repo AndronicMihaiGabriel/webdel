@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <h1>Bine ai venit, {{ username }}!</h1>
+    <p>Rolul tău: <strong>{{ rol }}</strong></p>
+
+    {% if rol == 'admin' %}
+    <ul>
+        <li><a href="/admin/pagina1">Pagina Admin 1</a></li>
+        <li><a href="/admin/pagina2">Pagina Admin 2</a></li>
+    </ul>
+    {% else %}
+    <p><a href="/dashboard/user">Pagina utilizator</a></p>
+    {% endif %}
+</body>
+
+</html>
