@@ -3,3 +3,6 @@ SQLAlchemy
 requests
 gunicorn
 pytest
+flask_bcrypt
+flask_login
+flask_cors
