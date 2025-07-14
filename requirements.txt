@@ -8,3 +8,4 @@ flask_login
 flask_cors
 mysql-connector-python
 mysql
+api
